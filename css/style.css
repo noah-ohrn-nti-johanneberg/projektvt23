@@ -1,1 +1,37 @@
 /* Denna fil skall innehålla din CSS kod */
+
+body {
+    height: 200vh;
+    width: 150vh;
+}
+
+
+#wrapper {
+    display: grid;
+    margin: auto;
+    grid-template-areas: "nv hd" 
+                         "se se"
+                         "fo fo" ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+header {
+grid-area:hd ;
+background-color: aqua;
+}
+
+nav {
+grid-area: nv;
+background-color: black;
+}
+
+section{
+grid-area: se;
+background-color: brown;
+}
+
+footer {
+grid-area: fo;
+background-color: gold;
+}
