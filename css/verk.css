@@ -85,24 +85,13 @@ nav ul li a {
 
 
 
-article {
-    min-width: 40vw;
-    min-height: 60vh;
-    height: 70vh;
-    width: 60vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-background-image: url("/img/no_commision_desktop.jpg") ;
-background-size:cover;
-background-repeat: no-repeat;
-background-position: center;
-overflow: hidden;
-
-
-}
  
+
+#img1 {
+    height: 30rem;
+    width: 60rem;
+}
 
 
 
@@ -110,17 +99,24 @@ overflow: hidden;
 section{
     grid-area: se;
     display: flex;
-    justify-content: center;
+    
     align-items: center;
+    flex-direction: column;
+    
 
-background-color: brown;
+background-color: black;
 width:100% ;
 height: 100%;
-background-image: url("/img/sun_forest_fixed.jpg");
-background-size:cover;
-background-repeat: no-repeat;
-background-position: center;
-overflow: hidden;
+
+}
+
+section h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+section p {
+    color: white;
 }
 
 footer {
@@ -174,10 +170,7 @@ nav ul li a {
 
 
 
-article {
-    width: 80vw;
-    background-image: url("/img/no_commision.jpg");
-}
+
 
 #wrapper {
     grid-template-areas: "hd hd"
@@ -210,5 +203,9 @@ nav.active {
     margin: 0.5rem;
 }
 
+img {
+max-height: 15rem;
+max-width: 22rem;
+}
 
 }
