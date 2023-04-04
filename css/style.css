@@ -34,15 +34,7 @@ header h1 {
 
 
 
-nav {
-    /* display: flex; */
-    
-    /* justify-content: space-between; */
-    font-size: rem;
-grid-area: nv;
-/* background-color: black; */
 
-}
 
 
 
@@ -113,7 +105,6 @@ overflow: hidden;
 
 section{
     grid-area: se;
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,24 +150,13 @@ footer h2 {
 nav {
     background-color: black;
     max-height: 0px;
-    overflow: hidden;
-    /* position: relative; */
-    /* font-size: 1.7rem; */
-    /* display: flex;
-    justify-content: space-around; */
-    /* align-items: s; */
-    
-    
+    overflow: hidden;  
 }
 
 nav a {
-    /* margin-left: 2.5vw; */
-    /* margin-bottom: 5vh; */
     margin-right: 3vw;
     display: flex;
     justify-content: start;
-    
-    /* align-items: ; */
 }
 
 nav h1 {
@@ -184,15 +164,13 @@ nav h1 {
 }
 
 
-nav ul li a {
-    
+nav ul li a { 
     font-size: 2rem;
 }
 
 
 
 article {
-    height: vh;
     width: 80vw;
     background-image: url("/img/no_commision.jpg");
 }
@@ -216,7 +194,6 @@ nav.active {
 }
 
 #hamburger {
-    /* border: 1px solid white; */
     height: 2rem;
     width: 2.8rem;
     position: absolute;
