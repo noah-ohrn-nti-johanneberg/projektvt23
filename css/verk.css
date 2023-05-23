@@ -32,7 +32,7 @@ header {
 header h1 {
     display: flex;
     justify-content: center;
-    color: blueviolet;
+    color: #C197D2;
     font-size: 3.5rem;
 }
 
@@ -56,7 +56,7 @@ list-style-position:unset;
 nav ul li a {
     text-decoration: none;
     font-size: 3rem;
-    color: blueviolet;
+    color: #C197D2;
     
 }
 
@@ -136,12 +136,12 @@ footer section {
 }
 
 footer section p {
-    color: blueviolet;
+    color: #C197D2;
     font-size: 1.2rem;
 }
 
 footer h2 {
-    color: blueviolet;
+    color: #C197D2;
     font-size: 1.5rem;
 }
 

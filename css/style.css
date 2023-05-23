@@ -15,7 +15,7 @@ body {
     grid-template-areas: "hd hd" 
                          "se se"
                          "fo fo" ;
-    grid-template-rows: 15% 60% 25%;
+    grid-template-rows: 15% 70% 15%;
     grid-template-columns: 80% 20%;
 }
 
@@ -24,7 +24,7 @@ body {
 
 
 header {
-    background-color: black;
+    background-color: black ;
     width: 100vw;
    
 }
@@ -32,7 +32,7 @@ header {
 header h1 {
     display: flex;
     justify-content: center;
-    color: blueviolet;
+    color: #C197D2 ;
     font-size: 3.5rem;
 }
 
@@ -56,7 +56,7 @@ list-style-position:unset;
 nav ul li a {
     text-decoration: none;
     font-size: 3rem;
-    color: blueviolet;
+    color: #C197D2;
     
 }
 
@@ -94,7 +94,7 @@ article {
     justify-content: center;
     align-items: center;
 
-background-image: url("/img/no_commision_desktop.jpg") ;
+background-image: url("/img/no_commision_desktop_new.jpg") ;
 background-size:cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -140,12 +140,12 @@ footer section {
 }
 
 footer section p {
-    color: blueviolet;
+    color: #C197D2;
     font-size: 1.2rem;
 }
 
 footer h2 {
-    color: blueviolet;
+    color: #C197D2;
     font-size: 1.5rem;
 }
 
@@ -176,7 +176,7 @@ nav ul li a {
 
 article {
     width: 80vw;
-    background-image: url("/img/no_commision.jpg");
+    background-image: url("/img/no_commision_new.jpg");
 }
 
 #wrapper {
@@ -206,7 +206,7 @@ nav.active {
 }
 
 #hamburger div{
-    border: 0.1rem solid white;
+    border: 0.1rem solid #C197D2;
     margin: 0.5rem;
 }
 
